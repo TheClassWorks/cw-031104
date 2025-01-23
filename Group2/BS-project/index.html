@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/2a48472dc0.js" crossorigin="anonymous"></script>
+    <link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb"
+      crossorigin="anonymous"
+    />
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <a href="offers.html" target="_blank">
+        <img src="assets/img/h1.png" alt="" class="img-fluid">
+      </a>
+    </div>
+    <!-- شروع بخش منوی اصلی -->
+    <nav class="navbar bg-menu sticky-top navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="" class="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">صفحه اصلی</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> دوره های آموزشی </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-filetype-py"></i>
+                      <span>پایتون</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <i class="bi bi-browser-chrome"></i>
+                      وب</a
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">برنامه نویسی</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">ارتقای مهارت</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">مقالات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- پایان بخش منوی اصلی -->
+
+    <!-- بخش معرفی سایت -->
+    <section class="intro">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-12 col-md-6">
+            <h2 class="lalezar pt-3">آکادمی آموزش کامپیدان</h2>
+            <h4 class="lalezar pb-5">پیشگام در آموزش برنامه نویسی</h4>
+            <p class="pt-3">با آکادمی خصوصی کامپیدان، علم برنامه نویسی رو با خیال راحت یاد بگیر و پیشرفت کن</p>
+            <button type="button" class="btn btn-danger rounded-pill">دوره های آموزشی</button>
+            <button type="button" class="btn btn-outline-success rounded-pill">نظرات دانشجویان</button>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="assets/img/header-intro.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- پایان بخش معرفی -->
+    <!-- همه می توانند -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <img src="assets/img/caneveryone.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-12 col-md-6">
+            <h4 class="pt-5">آيا همه می‌توانند برنامه نویس شوند؟</h4>
+            <p class="text-justify">
+              در چند سال اخیر، دنیای برنامه‌نویسی، داغ‌ترین سال‌های خود را تجربه کرده و افراد بسیار زیادی وارد این حوزه کاری/مطالعاتی شدند. شاید افراد بسیار زیادی فکر کنند که
+              برنامه نویسی برای همگان قابل دسترس است و هر کسی می‌تواند برنامه نویسی را یاد بگیرد. اما حقیقتا اینگونه نیست. برنامه‌نویسی نیز مانند هر رشته دیگری نیازمند یکسری پیش
+              زمینه ذهنی است که تنها با داشتن آن‌ها می‌توانید در این عرصه موفق شوید.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- همه می توانند -->
+
+    <!-- آخرین دوره ها -->
+    <section>
+      <h3 class="text-center lalezar">آخرین دوره ها</h3>
+      <p class="text-center">سکوی پرتاب شما به سمت موفقیت</p>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" data-aos="flip-right">
+              <img src="assets/img/laravel.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-primary">مشاهده دوره</a>
+                  <div>
+                    <del class="text-secondary">125000 تومان</del>
+                    <p class="text-success fw-bold">100,000 تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" data-aos="zoom-in" data-aos-duration="2000">
+              <img src="assets/img/laravel.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-primary">مشاهده دوره</a>
+                  <div>
+                    <del class="text-secondary">125000 تومان</del>
+                    <p class="text-success fw-bold">100,000 تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="assets/img/laravel.svg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="btn btn-primary">مشاهده دوره</a>
+                  <div>
+                    <del class="text-secondary">125000 تومان</del>
+                    <p class="text-success fw-bold">100,000 تومان</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- پایان آخرین دوره ها -->
+
+    <!-- بخش آمار -->
+    <section class="mt-5">
+      <h3 class="lalezar text-center">آمارها باعث افتخار ما هستند</h3>
+      <p class="text-center">هیچ توانستنی اتفاقی نیست</p>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-4">
+          <div class="col">
+            <div class="shadow text-center p-4">
+              <h2 class="fs-1 fw-bolder pt-4 purecounter" data-purecounter-start="622" data-purecounter-end="1"></h2>
+              <p>دانشجو</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow text-center p-4">
+              <h2 class="fs-1 fw-bolder pt-4">123</h2>
+              <p>دانشجو</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow text-center p-4">
+              <h2 class="fs-1 fw-bolder pt-4">123</h2>
+              <p>دانشجو</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow text-center p-4">
+              <h2 class="fs-1 fw-bolder pt-4">123</h2>
+              <p>دانشجو</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- پایان بخش آمار -->
+    <!-- بخش سوالات -->
+    <section class="mt-5">
+      <div class="text-center">
+        <h3 class="lalezar">سؤالات متداول</h3>
+        <p>پرسش‌هایی که کاربران در کامنت‌ها از ما می‌پرسند</p>
+      </div>
+      <div class="container">
+        <div class="row d-flex align-items-center row-cols-1 row-cols-md-2">
+          <div class="col">
+            <img src="assets/img/faq.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style
+                    each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                    overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style
+                    each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                    overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style
+                    each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                    overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapse4"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    مقالات ژورنالی
+                  </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style
+                    each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+                    overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- پایان بخش سوالات -->
+
+    <!-- بخش خدمات -->
+    <section class="mt-5">
+      <h3 class="text-center lalezar">خدمات کامپیدان</h3>
+      <p class="text-center">کیفیت اتفاقی نیست</p>
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 gy-4">
+          <div class="col">
+            <div class="service shadow text-center p-5 border-bottom border-3 border-primary rounded">
+              <i class="bi bi-cup-hot-fill fs-2"></i>
+              <h3>تیتر دلخواه</h3>
+              <p>متن دلخواه</p>
+              <a href="" class="text-decoration-none">
+                <span>مشاهده دوره</span>
+                <i class="bi bi-caret-left"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service shadow text-center p-5 border-bottom border-3 border-success rounded">
+              <i class="bi bi-cup-hot-fill fs-2"></i>
+              <h3>تیتر دلخواه</h3>
+              <p>متن دلخواه</p>
+              <a href="" class="text-decoration-none">
+                <span>مشاهده دوره</span>
+                <i class="bi bi-caret-left"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service shadow text-center p-5 border-bottom border-3 border-warning rounded">
+              <i class="bi bi-cup-hot-fill fs-2"></i>
+              <h3>تیتر دلخواه</h3>
+              <p>متن دلخواه</p>
+              <a href="" class="text-decoration-none">
+                <span>مشاهده دوره</span>
+                <i class="bi bi-caret-left"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- پایان خدمات -->
+
+    <!-- قیمت ها -->
+    <section class="mt-5">
+      <h3 class="text-center lalezar">قیمت خدمات سایت کامپیدان</h3>
+      <p class="text-center">بهترین خدمات آموزشی با قیمت های استثنایی</p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card text-center shadow prices">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">پلن رایگان</h5>
+                <p class="card-text fw-bold">0 <sup class="text-danger">تومان</sup> / در ماه</p>
+                <img src="assets/img/pricing1.png" class="card-img-top" alt="..." />
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm me-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm me-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="bi bi-alarm me-4"></i>
+                    <span>ویژگی پلن اول</span>
+                  </li>
+                </ul>
+                <a href="" class="btn btn-outline-primary mt-4">خرید پلن</a>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
+    <!-- پایان بخش قیمت ها -->
+
+    <!-- footer -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#f2f5fc"
+        fill-opacity="1"
+        d="M0,160L48,154.7C96,149,192,139,288,149.3C384,160,480,192,576,218.7C672,245,768,267,864,261.3C960,256,1056,224,1152,181.3C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+    <footer class="bg-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col col-sm-12 col-md-6">
+            <h3>آکادمی کامپیدان</h3>
+            <p>پیشگام در آموزش برنامه نویسی</p>
+          </div>
+          <div class="col col-sm-12 col-md-2">
+            <h3 class="border-bottom border-3 border-warning pb-3 w-75">لینک ها</h3>
+            <ul class="list-unstyled text-primary">
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+            </ul>
+          </div>
+          <div class="col col-sm-12 col-md-2">
+            <h3 class="border-bottom border-3 border-success pb-3 w-75">لینک ها</h3>
+            <ul class="list-unstyled text-primary">
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+            </ul>
+          </div>
+          <div class="col col-sm-12 col-md-2">
+            <h3 class="border-bottom border-3 border-warning pb-3 w-75">لینک ها</h3>
+            <ul class="list-unstyled text-primary">
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+              <li>
+                <i class="bi bi-caret-left"></i>
+                محصولات
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- purecounter -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script src="assets/js/main.js"></script>
+ 
+  </body>
+</html>
